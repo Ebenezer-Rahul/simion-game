@@ -18,7 +18,7 @@ $(document).on("keypress",function(){
 
 // gamegenerator
 function sequenceGenerator(){
-    var x = Math.random()*3+1;
+    var x = Math.random()*4;
     x=Math.floor(x);
     gamePattern.push(colors[x]);
     $("#"+colors[x]).fadeIn(100).fadeOut(100).fadeIn(100);
